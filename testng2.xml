@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Assignments">
+  <test name="Chrome_Test">
+  <parameter name="Browser" value="chrome"></parameter>
+  <parameter name="url" value="https://www.google.com/gmail/about/"></parameter>
+  <parameter name="fb_url" value="https://www.facebook.com/"></parameter>
+    <classes>
+      <class name="assignments.gmail"/>
+      <class name="assignments.Facebook"/>
+    </classes>
+  </test> <!-- Chrome_Test -->
+  
+  
+</suite> <!-- Assignments -->

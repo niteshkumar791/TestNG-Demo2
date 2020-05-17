@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionTest]">
+  <test name="Chrome_Test(failed)">
+    <parameter name="url" value=" "/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="sprint_1.login">
+        <methods>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="tc02"/>
+          <include name="CloseBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- sprint_1.login -->
+    </classes>
+  </test> <!-- Chrome_Test(failed) -->
+  <test name="IE_Test(failed)">
+    <parameter name="url" value=" "/>
+    <parameter name="Browser" value="ie"/>
+    <classes>
+      <class name="sprint_1.login">
+        <methods>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="tc02"/>
+          <include name="CloseBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- sprint_1.login -->
+    </classes>
+  </test> <!-- IE_Test(failed) -->
+</suite> <!-- Failed suite [RegressionTest] -->

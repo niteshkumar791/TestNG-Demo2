@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Assignments]">
+  <test name="Chrome_Test(failed)">
+    <parameter name="fb_url" value="https://www.facebook.com/"/>
+    <parameter name="url" value="https://www.google.com/gmail/about/"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="assignments.Facebook">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="FB"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- assignments.Facebook -->
+    </classes>
+  </test> <!-- Chrome_Test(failed) -->
+</suite> <!-- Failed suite [Assignments] -->

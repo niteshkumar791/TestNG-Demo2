@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionTest">
+	
+  <test name="Chrome_Test">  
+  <parameter name="Browser" value="chrome"></parameter>
+  <parameter name="url" value=" "></parameter>  
+    <classes>
+      <class name="sprint_1.login"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="IE_Test">  
+  <parameter name="Browser" value="ie"></parameter>
+  <parameter name="url" value=" "></parameter>  
+    <classes>
+      <class name="sprint_1.login"/>     
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->
